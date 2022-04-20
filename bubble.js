@@ -1,7 +1,7 @@
 
 all_stress=[[],[],[],[],[]]
 
-d3.csv('https://github.com/ayusht22/bubble-chart/blob/master/stress.csv',function(data){
+d3.csv('https://raw.githubusercontent.com/ayusht22/bubble-chart/master/stress.csv',function(data){
 
     for (var i = 0; i < data.length; i++) {
         all_stress[0].push(data[i]['ts0'])
@@ -45,7 +45,7 @@ barPlot={}
 
 
 
-d3.json('https://github.com/ayusht22/bubble-chart/blob/master/sdg.json',function(data){
+d3.json('https://raw.githubusercontent.com/ayusht22/bubble-chart/master/sdg.json',function(data){
 
     for (var i = 0; i < data.length; i++) {
 
