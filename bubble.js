@@ -446,7 +446,7 @@ d3.json('https://raw.githubusercontent.com/ayusht22/bubble-chart/master/sdg.json
               mode: 'immediate',
               fromcurrent: true,
               transition: {duration: 1000},
-              frame: {duration: 1000, redraw: true}
+              frame: {duration: 1000, redraw: false}
             }],
             label: 'Play'
           }, {
@@ -454,7 +454,7 @@ d3.json('https://raw.githubusercontent.com/ayusht22/bubble-chart/master/sdg.json
             args: [[null], {
               mode: 'immediate',
               transition: {duration: 0},
-              frame: {duration: 0, redraw: true}
+              frame: {duration: 0, redraw: false}
             }],
             label: 'Pause'
           }]
